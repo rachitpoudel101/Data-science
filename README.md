@@ -17,3 +17,28 @@ This definition highlights the following important aspects of data science:
 * Obtained knowledge should be applied to produce some **actionable insights**, i.e. practical insights that you can apply to real business situations.
 * We should be able to operate on both **structured** and **unstructured** data.  We will come back to discuss different types of data later in the course.
 * **Application domain** is an important concept, and data scientists often need at least some degree of expertise in the problem domain, for example: finance, medicine, marketing, etc. 
+
+Since data is pervasive, data science itself is also a broad field, touching many other disciplines.
+
+<dl>
+<dt>Databases</dt>
+<dd>
+A critical consideration is **how to store** the data, i.e. how to structure it in a way that allows faster processing.  There are different types of databases that store structured and unstructured data, which <a href="../../2-Working-With-Data/README.md">we will consider in our course</a>.
+</dd>
+<dt>Big Data</dt>
+<dd>
+Often we need to store and process very large quantities of data with a relatively simple structure.  There are special approaches and tools to store that data in a distributed manner on a computer cluster, and process it efficiently.
+</dd>
+<dt>Machine Learning</dt>
+<dd>
+One way to understand data is to **build a model** that will be able to predict a desired outcome.  Developing models from data is called **machine learning**. You may want to have a look at our <a href="https://aka.ms/ml-beginners">Machine Learning for Beginners</a> Curriculum to learn more about it.
+</dd>
+<dt>Artificial Intelligence</dt>
+<dd>
+An area of machine learning known as artificial intelligence (AI) also relies on data, and it involves building high complexity models that mimic human thought processes.  AI methods often allow us to turn unstructured data (e.g. natural language) into structured insights. 
+</dd>
+<dt>Visualization</dt>
+<dd>
+Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations using that data, we can make more sense of the data, and draw some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in <a href="../../3-Data-Visualization/README.md">Section 3</a> of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
+</dd>
+</dl>
