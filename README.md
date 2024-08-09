@@ -42,3 +42,30 @@ An area of machine learning known as artificial intelligence (AI) also relies on
 Vast amounts of data are incomprehensible for a human being, but once we create useful visualizations using that data, we can make more sense of the data, and draw some conclusions. Thus, it is important to know many ways to visualize information - something that we will cover in <a href="../../3-Data-Visualization/README.md">Section 3</a> of our course. Related fields also include **Infographics**, and **Human-Computer Interaction** in general. 
 </dd>
 </dl>
+## Types of Data
+
+As we have already mentioned, data is everywhere.  We just need to capture it in the right way!  It is useful to distinguish between **structured** and **unstructured** data. The former is typically represented in some well-structured form, often as a table or number of tables, while the latter is just a collection of files.  Sometimes we can also talk about **semi-structured** data, that have some sort of a structure that may vary greatly.
+
+| Structured                                                                   | Semi-structured                                                                                | Unstructured                            |
+| ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------- | --------------------------------------- |
+| List of people with their phone numbers                                      | Wikipedia pages with links                                                                     | Text of Encyclopedia Britannica        |
+| Temperature in all rooms of a building at every minute for the last 20 years | Collection of scientific papers in JSON format with authors, data of publication, and abstract | File share with corporate documents     |
+| Data for age and gender of all people entering the building                  | Internet pages                                                                                 | Raw video feed from surveillance camera |
+
+## Where to get Data
+
+There are many possible sources of data, and it will be impossible to list all of them! However, let's mention some of the typical places where you can get data:
+
+* **Structured**
+  - **Internet of Things** (IoT), including data from different sensors, such as temperature or pressure sensors, provides a lot of useful data.  For example, if an office building is equipped with IoT sensors, we can automatically control heating and lighting in order to minimize costs. 
+  - **Surveys** that we ask users to complete after a purchase, or after visiting a web site.
+  - **Analysis of behavior** can, for example, help us understand how deeply a user goes into a site, and what is the typical reason for leaving the site.
+* **Unstructured**
+  - **Texts** can be a rich source of insights, such as an overall **sentiment score**, or extracting keywords and semantic meaning.
+  - **Images** or **Video**. A video from a surveillance camera can be used to estimate traffic on the road, and inform people about potential traffic jams.
+  - Web server **Logs** can be used to understand which pages of our site are most often visited, and for how long.
+* Semi-structured
+  - **Social Network** graphs can be great sources of data about user personalities and potential effectiveness in spreading information around.
+  - When we have a bunch of photographs from a party, we can try to extract **Group Dynamics** data by building a graph of people taking pictures with each other.
+
+By knowing different possible sources of data, you can try to think about different scenarios where data science techniques can be applied to know the situation better, and to improve business processes. 
